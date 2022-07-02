@@ -1,8 +1,12 @@
 
-
+.music-container{
+    width: 100%;
+}
 .music__lyric{
     height: 280px;
     overflow-y: scroll;
+    text-align: center;
+    padding: 10px 25px;
 }
 
 .music__player{
@@ -39,4 +43,14 @@
     font-size: 12px;
     border: 1px solid var(--white-color);
     color: var(--white-color);
+}
+
+.visualizer{
+    height: 300px;
+    width: 100%;
+}
+
+.visualizer img{
+    height: 100%;
+    width: 100%;
 }

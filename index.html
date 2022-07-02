@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendors/slick/slick.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
 
@@ -45,6 +45,9 @@
               </li>
             
             </ul>
+            <div class="header-form">
+                    <p><i class="fa-solid fa-magnifying-glass"></i></p>
+            </div>
     
           </div>
         </div>
@@ -193,32 +196,37 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-md-8 py-3">
-                    <div class="visualizer"></div>
-                </div>
-                <div class="col-md-4 py-3">
-                    <div class="music">
-                        <div class="music__lyric">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga explicabo mollitia tempore minus eos, fugiat aut officia debitis iste atque cupiditate nostrum tenetur quasi obcaecati natus eius nesciunt? Praesentium, placeat.</p>
+            <div class="music-container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 py-3">
+                        <div class="visualizer">
+                            <img src="./images/music.png" alt="">
                         </div>
-                        <div class="music__player">
-                            <audio  id="audio">  
-                              </audio>
-                              <div class="player">
-                                <ul>
-                                    <li><span id="pause" class=""><i class="fa-solid fa-pause"></i></span></li>
-                                    <li><span id="play" class=""><i class="fa-solid fa-play"></i></span></li>
-                                    <li><span id="prev" class=""><i class="fa-solid fa-backward-fast"></i></span></li>
-                                    <li><span id="next" class=""><i class="fa-solid fa-forward-fast"></i></span></li>
-                                    <li><span id="vol" class=""><i class="fa-solid fa-volume-high"></i></span></li>
-                                    <!-- <li><span class=""><i class="fa-solid fa-volume"></i></span></li> -->
-                                </ul>
-                              </div>
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <div class="music">
+                            <div class="music__lyric">
+                                <p id="lyric">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga explicabo mollitia tempore minus eos, fugiat aut officia debitis iste atque cupiditate nostrum tenetur quasi obcaecati natus eius nesciunt? Praesentium, placeat.</p>
+                            </div>
+                            <div class="music__player">
+                                <audio src="mp3/sample-15s.mp3"  id="audio" class="audio audio-container">  
+                                  </audio>
+                                  <div class="player">
+                                    <ul>
+                                        <li><span id="pause" class=""><i class="fa-solid fa-pause"></i></span></li>
+                                        <li><span id="play" class=""><i class="fa-solid fa-play"></i></span></li>
+                                        <li><span id="prev" class=""><i class="fa-solid fa-backward-fast"></i></span></li>
+                                        <li><span id="next" class=""><i class="fa-solid fa-forward-fast"></i></span></li>
+                                        <li><span id="speaker" class=""><i class="fa-solid mute-vol fa-volume-high"></i></span></li>
+                                        <!-- <i class="fa-solid fa-volume-xmark"></i> -->
+                                    </ul>
+                                  </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+           
            <!-- ============ music part end ================ -->
 
 
@@ -295,5 +303,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/music/music.js"></script>
 </body>
 </html>

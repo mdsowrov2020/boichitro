@@ -50,5 +50,17 @@ header{
 .navbar-nav-custom li:not(:last-child){
     margin-right: 10px;
 }
+.header-form{
+    border:1px solid var(--white-color);
+    height: 25px;
+    width: 50px;
+    border-radius: 30px;
+    margin-left: 15px;
+    text-align: end;
+    color: var(--white-color);
+    padding-right: 5px;
+    font-size: 14px;
+    cursor: pointer;
 
+}
 /* ======== header css end ========= */
