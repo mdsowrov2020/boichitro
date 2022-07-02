@@ -1,0 +1,114 @@
+
+/* ======== category css end ========= */
+.common{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.common::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 75%;
+    /* background-color: var(--bg-v1); */
+    background-image: linear-gradient(to top, #efe5e5, #f2eaeb, #f4eff1, #f7f4f6, #faf9fa, #faf9fa, #faf9fa, #faf9fa, #f7f4f6, #f4eff1, #f2eaeb, #efe5e5);
+    z-index: -1;
+}
+
+
+.category-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.category-nav ul li button{
+    height: 50px;
+    width: 170px;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid var(--red-primary);
+    background-color: var(--btn-gray);
+    color: var(--black);
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.books-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.books-list__item {
+    height: 220px;
+    width: 170px;
+}
+
+
+
+.books-list__item img{
+    height: 100%;
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.books-list__item a img:hover{
+    transform: scale(1.2);
+}
+
+.category-more{
+    text-align: end;
+    padding: 8px;
+    position: relative;
+}
+
+.category-more::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    height: 2px;
+    background-color: var(--red-primary);
+    width:calc(100% - 78px) ;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.category-more a{
+    font-size: 16px;
+    color: var( --red-primary);
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+/* popular */
+
+.common-bg{
+    height: 100%;
+    width: 100%;
+   position: relative;
+   z-index: 1;
+}
+
+/* .common-bg::before{
+    position: absolute;
+    content: '';
+    top: -3%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100% !important;
+    width: 90% !important;
+    z-index: -1;
+    background-image: url(../../../images/popular.png);
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    z-index: -1;
+    
+} */

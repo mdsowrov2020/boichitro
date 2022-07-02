@@ -1,0 +1,42 @@
+
+
+.music__lyric{
+    height: 280px;
+    overflow-y: scroll;
+}
+
+.music__player{
+    height: 40px;
+    background-color: var( --red-primary);
+    position: relative;
+}
+
+.player{
+    text-align: center;
+    /* display: inline-block; */
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.player ul{
+    margin: auto 0 !important;
+    display: inline-block;
+}
+.player ul li{
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.player ul li span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 100vmax;
+    font-size: 12px;
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+}

@@ -1,0 +1,36 @@
+@media (min-width:1400px){
+    .common::before{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 100%;
+        width: 60%;
+        /* background-color: var(--bg-v1); */
+        background-image: linear-gradient(to top, #efe5e5, #f2eaeb, #f4eff1, #f7f4f6, #faf9fa, #faf9fa, #faf9fa, #faf9fa, #f7f4f6, #f4eff1, #f2eaeb, #efe5e5);
+        z-index: -1;
+    }
+}
+
+@media(max-width:576px){
+    .category-nav ul{
+        justify-content: space-around;
+        gap: 15px;
+    }
+    .category-nav ul li button{
+        height: 39px;
+        width: 130px;
+        font-size: 12px;
+   
+    }
+    .books-list{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .books-list__item {
+        height: 200px;
+        width: 145px;
+    }
+}

@@ -1,0 +1,17 @@
+.powered{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.powered__img{
+    height: 70px;
+    width: 200px;
+}
+
+.powered__img img{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+/* ======== header css start ========= */
+header{
+    height: 85px;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    /* background-size:cover;
+    background-position: center; */
+    background-image: linear-gradient(to left, #d61218, #c61617, #b71817, #a81916, #991a15, #991a15, #991a15, #991a15, #a81916, #b71817, #c61617, #d61218);
+    /* padding-top: 20px; */
+}
+
+.nav-custom{
+    transform: translateY(12px);
+    /* background-color: crimson; */
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.nav-custom__logo img{
+    height: 90px;
+    width: 90px;
+}
+
+.nav-custom__logo {
+    color: var(--white-color);
+}
+
+.nav-custom__logo:hover{
+    color: var(--white-color) !important;
+}
+
+.navbar-nav-custom li a{
+    background-image: linear-gradient(to top, #d61218, #c61617, #b71817, #a81916, #991a15, #991a15, #991a15, #991a15, #a81916, #b71817, #c61617, #d61218);
+    color: var(--white-color);
+    padding: 0 !important;
+    padding: 0 8px !important;
+    font-size: 16px;
+    transition: all .2s linear;
+}
+
+.navbar-nav-custom li a:hover{
+    color: var(--yellow-color);
+}
+
+.navbar-nav-custom li a:focus{
+    color: var(--yellow-color);
+}
+
+.navbar-nav-custom li:not(:last-child){
+    margin-right: 10px;
+}
+
+/* ======== header css end ========= */

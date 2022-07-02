@@ -1,0 +1,30 @@
+
+.main-title{
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.main-title p{
+    display: inline-block;
+    font-size: 18px;
+    color: var(--red-primary);
+    padding: 8px 20px !important;
+    border-radius: 100vmax;
+    background-color: var(--bg-v1);
+}
+.main-title.popura-title p{
+    background-color: var(--white-color);
+}
+.main-title::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--red-primary);
+    z-index: -1;
+}

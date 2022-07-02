@@ -1,0 +1,37 @@
+footer{
+    background-image: linear-gradient(to left, #d61218, #c61617, #b71817, #a81916, #991a15, #991a15, #991a15, #991a15, #a81916, #b71817, #c61617, #d61218);
+}
+
+.address p,.connect p,.copyright p{
+    color: var(--white-color);
+    font-size: 16px;
+}
+.connect p{
+    padding-bottom: 15px;
+}
+.connect{
+    text-align: center;
+}
+
+.connect ul li{
+    display: inline-block;
+    margin: 3px 8px;
+}
+
+.connect ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 100vmax;
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+    font-size: 18px;
+    text-align: center;
+}
+
+.copyright{
+    text-align: center;
+    padding: 20px 0;
+}

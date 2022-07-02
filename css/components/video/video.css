@@ -1,0 +1,28 @@
+.video-block{
+    text-align: center;
+}
+
+.video-block button{
+    height: 120px;
+    width: 150px;
+    background-color: var( --red-primary);
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    margin: 0 10px;
+   text-align:  center;
+}
+
+.video-block button span{
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    border-radius: 100vmax;
+    color: var(--white-color);
+    border: 3px solid var(--white-color);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
