@@ -187,11 +187,6 @@ pauseBtn.addEventListener('click', () => {
 speakerBtn.addEventListener('click', () => {
   const isPlaying = musicContainer.classList.contains('play');
   let high = speakerIcon.classList.contains('fa-volume-high');
-  // if (isPlaying) {
-  //   mutedSong();
-  // } else {
-  //   unmuteSong();
-  // }
 
   if (isPlaying) {
     if (high) {

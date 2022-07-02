@@ -45,4 +45,26 @@
         height: 200px;
         width: 145px;
     }
+    .about-content {
+        padding: 5px 15px;
+       
+    }
+    .about-content p{
+        font-size: 12px;
+    }
+    .author-img{
+        margin: 0 auto;
+    }
+    .author-info h4{
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .author-info p{
+        text-align: justify;
+        font-size: 12px;
+    }
+    /* .author-img img{
+        margin: 0 auto;
+    } */
 }

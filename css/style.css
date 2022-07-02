@@ -8,6 +8,8 @@
 @import '../css/components/music/music.css';
 @import '../css/components/video/video.css';
 @import '../css/components/powered/powered.css';
+@import '../css/pages/about/about.css';
+@import '../css/pages/author/author.css';
 @import '../css/components/footer/footer.css';
 *{
     margin: 0;
