@@ -1,5 +1,9 @@
 'use strict';
-
+const headerFormBlock = document.querySelector('.header-form-block');
+const headerForm = document.querySelector('.header-form');
+headerFormBlock.addEventListener('click', () => {
+  headerForm.classList.toggle('open');
+});
 $('.slider-container').slick({
   dots: true,
   infinite: true,

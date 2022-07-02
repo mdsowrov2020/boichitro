@@ -53,7 +53,7 @@ header{
     margin-right: 10px;
     /* border-right: 1px solid var(--white-color); */
 }
-.header-form{
+.header-form-block{
     border:1px solid var(--white-color);
     height: 25px;
     width: 50px;
@@ -64,6 +64,48 @@ header{
     padding-right: 5px;
     font-size: 14px;
     cursor: pointer;
+    /* position: relative; */
 
+}
+
+.header-form{
+    position: absolute;
+    left: 50%;
+   top: 50%;
+   height: 70px;
+   width: 400px;
+   border-radius: 100vmax;
+   background-color: #d61218;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 15px;
+   transform: scale(0) translate(-50%,-50%);
+   transition: transform .5s ease-in-out;
+}
+.open{
+    transform: scale(1) translate(-50%,-50%) !important;
+}
+.header-form form {
+    width: 100%;
+    display: flex;
+}
+.header-form form input{
+    height: 40px !important;
+    width: 100% !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 100vmax;
+    padding: 0 20px !important;
+}
+
+.header-form form button{
+    margin-left: 15px;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 100vmax;
+    padding: 8px 20px !important;
 }
 /* ======== header css end ========= */
