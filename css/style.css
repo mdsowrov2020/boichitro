@@ -22,6 +22,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: var(--gray-primary);
     overflow-x: hidden;
+    background: url(../images/body-bg.png);
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
 }
 
 

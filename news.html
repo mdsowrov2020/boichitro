@@ -12,60 +12,173 @@
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
- <!-- ============= Header Start============== -->
+<!-- ============= Header Start============== -->
 
- <header class="" >
-    <nav class="navbar navbar-expand-lg nav-custom">
-        <div class="container">
-          <a class="navbar-brand nav-custom__logo" href="#"><img src="./images/logo.png" alt=""> Boichitro</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto navbar-nav-custom">
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="authors.html">Authors</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="publisher.html">Publishers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Download app</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
-              </li>
-            
-            </ul>
-            <div class="header-form">
-                    <p><i class="fa-solid fa-magnifying-glass"></i></p>
-            </div>
-    
+<header class="" >
+  <nav class="navbar navbar-expand-lg nav-custom">
+      <div class="container">
+        <a class="navbar-brand nav-custom__logo" href="#"><img src="./images/logo.png" alt=""> Boichitro</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse animate-nav-content" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto navbar-nav-custom">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="authors.html">Authors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="publisher.html">Publishers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Download app</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item srch-nav">
+              <a class="nav-link header-form-block" href="javascript:void(0)">
+                  <p><i class="fa-solid fa-magnifying-glass"></i></p>
+              </a>
+          <div class="header-form">
+              <form action="">
+                  <input type="text" name="" id="">
+                
+              </form>
+              <button class="close-btn">close</button>
           </div>
+            </li>
+          
+          </ul>
+          <!-- <div class="header-form-block">
+                  <p><i class="fa-solid fa-magnifying-glass"></i></p>
+          </div> -->
+          <!-- <div class="header-form">
+              <form action="">
+                  <input type="text" name="" id="">
+                
+              </form>
+              <button class="close-btn">close</button>
+          </div> -->
         </div>
-      </nav>
+      </div>
+    </nav>
 </header>
- 
-<!-- ============= Header End============== --> 
+
+<!-- ============= Header End============== -->
 
 
 <section>
     <div class="container">
+      <div class="news-bg" style="background: url(./images/news-bg.png);">
         <div class="row justify-content-center">
-            <div class="col-md-12">
-                
+          <div class="col-md-12">
+              <div class="news-banner">
+                <img src="./images/news-banner.png" alt="">
+              </div>
+          </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="row justify-content-center">
+            <div class="col-md-8 py-3">
+              <div class="trend-news">
+                <div class="trend-img">
+                  <img src="./images/news-book.png" alt="">
+                </div>
+                <div class="news-content py-3">
+                  <h4><a href="">News title</a></h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, eaque! Dicta facilis blanditiis quia fugit quas numquam assumenda mollitia dolor, quam sunt voluptate atque distinctio? Alias modi omnis dolorum labore!</p>
+                  <a href="">Read more..</a>
+                </div>
+              </div>
+
+              <div class="row justify-content-center">
+                <div class="col-md-4 py-3">
+                  <div class="news-img">
+                    <img src="./images/author.PNG" alt="">
+                  </div>
+                </div>
+                <div class="col-md-8 py-3">
+                  <div class="news-content">
+                    <h4><a href="">News title</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, eaque! Dicta facilis blanditiis quia fugit quas numquam assumenda mollitia dolor, quam sunt voluptate atque distinctio? Alias modi omnis dolorum labore!</p>
+                    <a href="">Read more..</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3">
+              <div class="news-img">
+                <img src="./images/b2.png" alt="">
+              </div>
+              <div class="news-content py-3">
+                <h4><a href="">News title</a></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, eaque! Dicta facilis blanditiis quia fugit quas numquam assumenda mollitia dolor, quam sunt voluptate atque distinctio? Alias modi omnis dolorum labore!</p>
+                <a href="">Read more..</a>
+              </div>
+              <div class="news-img">
+                <img src="./images/news-child.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      </div>
+       <!-- ============ powered part start ============== -->
+       <div class="row justify-content-center">
+        <div class="col-md-12">
+            <div class="powered">
+                <div class="powered__img">
+                    <img src="./images/DevObject-.png" alt="">
+                </div>
+                <div class="powered__img">
+                    <img src="./images/dhanshiri.png" alt="">
+                </div>
             </div>
         </div>
     </div>
+<!-- ============ powered part end ============== -->
+    </div>
 </section>
     
-
+<footer>
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-8 py-3">
+              <div class="address">
+                  <p>Contact info:</p>
+                  <p>House #472, Road # 8, Baridhara DOHS</p>
+                  <p>Dhaka 1206, Bangladesh</p>
+                  <p>Email: boichitro21@gmail.com</p>
+              </div>
+          </div>
+          <div class="col-md-4 py-3">
+              <div class="connect">
+                  <p>Stay connected with us</p>
+                  <ul>
+                      <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                      <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                      <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="col-md-12">
+              <div class="copyright">
+                  <p>Copyrights <span><i class="fa-solid fa-copyright"></i></span> boichitro.com.bd</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

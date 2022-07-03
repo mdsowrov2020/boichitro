@@ -11,6 +11,10 @@
         background-image: linear-gradient(to top, #efe5e5, #f2eaeb, #f4eff1, #f7f4f6, #faf9fa, #faf9fa, #faf9fa, #faf9fa, #f7f4f6, #f4eff1, #f2eaeb, #efe5e5);
         z-index: -1;
     }
+    .news-banner{
+        height: 80vh;
+        width: 100%;
+    }
 }
 
 @media(max-width:576px){
