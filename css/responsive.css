@@ -82,4 +82,10 @@
     .header-form{
         width: 100%;
     }
+    .navbar-toggler{
+        color: var(--white-color);
+        outline: none !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
 }

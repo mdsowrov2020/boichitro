@@ -10,6 +10,7 @@
 @import '../css/components/powered/powered.css';
 @import '../css/pages/about/about.css';
 @import '../css/pages/author/author.css';
+@import '../css/pages/news/news.css';
 @import '../css/components/footer/footer.css';
 *{
     margin: 0;
