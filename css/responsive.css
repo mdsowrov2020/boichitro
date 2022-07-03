@@ -92,4 +92,16 @@
         border: none !important;
         box-shadow: none !important;
     }
+    .news-content p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .powered__img{
+        height: 40px;
+        width: 130px;
+    }
+    .news-banner{
+        height: 40vh;
+        width: 100%;
+    }
 }
