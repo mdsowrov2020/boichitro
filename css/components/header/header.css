@@ -34,7 +34,7 @@ header{
     background-image: linear-gradient(to top, #d61218, #c61617, #b71817, #a81916, #991a15, #991a15, #991a15, #991a15, #a81916, #b71817, #c61617, #d61218);
     color: var(--white-color);
     padding: 0 !important;
-    padding: 0 8px !important;
+    padding: 5px 8px !important;
     font-size: 16px;
     transition: all .2s linear;
 }
@@ -59,14 +59,17 @@ header{
 }
 .header-form-block{
     border:1px solid var(--white-color);
-    height: 25px;
+    height: 30px;
     width: 50px;
     text-align: end;
     border-radius: 30px;
     color: var(--white-color);
     padding-right: 5px;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: end;
     /* position: relative; */
 
 }

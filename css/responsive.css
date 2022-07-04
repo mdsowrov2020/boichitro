@@ -25,6 +25,9 @@
         width: 100%;
         text-align: center;
     }
+    .navbar-nav-custom li a{
+        padding: 8px 0;
+    }
     .hero-img {
         height: 170px;
         width: 100%;

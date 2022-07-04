@@ -9,6 +9,16 @@
     padding: 10px 25px;
 }
 
+.music__lyric::-webkit-scrollbar{
+    width: 6px !important;
+    
+}
+
+.music__lyric::-webkit-scrollbar-thumb{
+    background-color: var(--bg-v1)!important;
+    border-radius: 8px !important;
+}
+
 .music__player{
     height: 40px;
     background-color: var( --red-primary);
