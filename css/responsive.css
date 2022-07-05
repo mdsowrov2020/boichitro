@@ -18,6 +18,9 @@
 }
 
 @media(max-width:576px){
+    header{
+        height: auto;
+    }
     .navbar-nav-custom li{
         margin: auto !important;
         margin: 3px auto !important;
@@ -28,8 +31,24 @@
     .navbar-nav-custom li a{
         padding: 8px 0;
     }
+
+    .header-form{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 100vh;
+        width: 100vw;
+        z-index: 1300;
+        padding: 20px;
+        background-attachment: fixed;
+    }
+    .header-form .custom-header-form{
+        width: 70%;
+    }
     .hero-img {
-        height: 250px;
+        height: 220px;
         width: 100%;
       }
 
@@ -72,6 +91,11 @@
     .author-info h4{
         text-align: center;
         padding: 15px 0;
+    }
+
+    .about-block[size="A4"]{
+        height: 100%;
+        width: 100%;
     }
 
     .author-info p{

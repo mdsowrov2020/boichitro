@@ -10,6 +10,39 @@ header{
     /* padding-top: 20px; */
 }
 
+.header-form{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to left, #d61218, #c61617, #b71817, #a81916, #991a15, #991a15, #991a15, #991a15, #a81916, #b71817, #c61617, #d61218);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scaleX(0) ;
+    transition: transform .5s ease-in-out;
+    transform-origin: right;
+    z-index: 1200;
+}
+
+.header-form .custom-header-form{
+    display: flex;
+    width: 50%;
+}
+
+.custom-header-form form{
+    position: relative;
+}
+
+.custom-header-form form button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #f5f5f5 !important;
+    color: #484848;
+}
+
 .nav-custom{
     transform: translateY(12px);
     /* background-color: crimson; */
@@ -74,9 +107,9 @@ header{
 
 }
 
-.header-form{
+/* .header-form{
     position: absolute;
-    /* left: 50%; */
+
   bottom: 0;
    right: 0;
    height: 70px;
@@ -90,7 +123,7 @@ header{
    transform: scaleX(0) ;
    transition: transform .5s ease-in-out;
    transform-origin: right;
-}
+} */
 .open{
     transform: scaleX(1)  !important;
 }

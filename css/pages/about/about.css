@@ -1,11 +1,17 @@
 .about-block{
-    height: 100% !important;
-    width: 100% !important;
+    /* height: 100% !important;
+    width: 100% !important; */
     background-position: center !important;
     background-size:cover !important;
     background-repeat: no-repeat !important;
-    /* padding-bottom: 1100px; */
+    padding-bottom: 1100px;
 }
+
+.about-block[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+    margin: 0 auto;
+  }
 .about-content p{
     text-align: justify;
     font-size: 16px;
