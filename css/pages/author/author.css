@@ -36,3 +36,13 @@
     font-size: 18px;
     color: var(--black);
 }
+
+.banner-auth__img{
+    height: 320px;
+    width: 100%;
+}
+
+.banner-auth__img img{
+    height: 100%;
+    width: 100%;
+}
