@@ -19,12 +19,13 @@
 
 .author-img{
     height: 280px;
-    width: 80%;
+    width: 240px;
 }
 
 .author-img img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .author-info h4{

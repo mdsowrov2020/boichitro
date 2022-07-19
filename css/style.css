@@ -10,6 +10,7 @@
 @import '../css/components/powered/powered.css';
 @import '../css/pages/about/about.css';
 @import '../css/pages/author/author.css';
+@import '../css//pages/download/download.css';
 @import '../css/pages/news/news.css';
 @import '../css/components/footer/footer.css';
 *{
@@ -17,7 +18,9 @@
     padding: 0;
     outline: none;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: var(--gray-primary);

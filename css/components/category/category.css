@@ -6,19 +6,23 @@
     width: 100%;
 }
 
-.common::before{
+/* .common::before{
     position: absolute;
     content: '';
     top: 0;
     left: 50%;
     transform: translateX(-50%);
     height: 100%;
-    width: 75%;
-    /* background-color: var(--bg-v1); */
+    width: 100%;
+
     background-image: linear-gradient(to top, #efe5e5, #f2eaeb, #f4eff1, #f7f4f6, #faf9fa, #faf9fa, #faf9fa, #faf9fa, #f7f4f6, #f4eff1, #f2eaeb, #efe5e5);
     z-index: -1;
-}
+} */
 
+.common__content{
+    width: 100%;
+    background-image: linear-gradient(to top, #efe5e5, #f2eaeb, #f4eff1, #f7f4f6, #faf9fa, #faf9fa, #faf9fa, #faf9fa, #f7f4f6, #f4eff1, #f2eaeb, #efe5e5);
+}
 
 .category-nav ul{
     display: flex;

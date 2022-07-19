@@ -1,0 +1,75 @@
+
+.download-top{
+    display: flex;
+}
+
+.download-top img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 250px;
+}
+.download-top img:first-child{
+    margin-right: 15px;
+}
+.app-img{
+    height: 470px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.app-img img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.download-qoute{
+    height: 350px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.download-qoute img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.download-btn {
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+}
+.download-btn a{
+    display: inline-block;
+    margin: 0 10px;
+}
+.download-app{
+    display: flex;
+    align-items: center;
+    background-color: var(--black);
+    padding: 7px 30px;
+    border-radius: 10px;
+    color: var(--white-color);
+}
+
+.download-app span{
+  font-size: 35px;
+}
+.download-btn__content{
+    margin-left: 15px;
+}
+.download-btn__content p{
+    font-size: 13px;
+}
+
+.download-btn__content h2{
+    font-size: 16px;
+}

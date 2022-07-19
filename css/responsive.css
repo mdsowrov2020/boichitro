@@ -96,8 +96,11 @@
     .about-block[size="A4"]{
         height: 100%;
         width: 100%;
+        padding-bottom: 400px;
     }
-
+    .address {
+        text-align: center;
+    }
     .author-info p{
         text-align: justify;
         font-size: 12px;
@@ -131,4 +134,35 @@
         height: 40vh;
         width: 100%;
     }
+
+    .download-app{
+        padding: 7px 10px;
+        border-radius: 6px;
+    }
+
+    .download-btn__content p {
+        font-size: 10px;
+      }
+      .download-btn__content h2 {
+        font-size: 13px;
+      }
+      .download-app span {
+        font-size: 20px;
+      }
+
+      .download-qoute {
+        height: 250px;
+        width: 95%;
+      }
+
+      .app-img {
+        height: 300px;
+        width: 220px;
+      }
+
+      .download-top img {
+        height: 79px;
+        width: 179px;
+      }
+   
 }
