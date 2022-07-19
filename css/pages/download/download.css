@@ -54,9 +54,12 @@
 .download-app{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: var(--black);
-    padding: 7px 30px;
+    /* padding: 7px 30px; */
     border-radius: 10px;
+    height: 60px;
+    width: 200px;
     color: var(--white-color);
 }
 

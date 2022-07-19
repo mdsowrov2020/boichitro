@@ -136,10 +136,13 @@
     }
 
     .download-app{
-        padding: 7px 10px;
+        height: 50px;
+        width: 160px;
         border-radius: 6px;
     }
-
+    .download-btn a{
+        margin: 0 5px;
+    }
     .download-btn__content p {
         font-size: 10px;
       }
