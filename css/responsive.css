@@ -51,7 +51,10 @@
         height: 220px;
         width: 100%;
       }
-
+      .banner-auth__img{
+        height: 220px;
+        width: 100%;
+      }
       .slider-container > .slick-dots{
         bottom: -2%;
       }
