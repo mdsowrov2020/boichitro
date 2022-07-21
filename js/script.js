@@ -6,7 +6,7 @@ const hero__img = document.querySelectorAll('.img-mobile');
 const mobile = window.innerWidth;
 
 const heroImages = [
-  'https://cdn.pixabay.com/photo/2022/04/18/15/38/poppies-7140807__340.jpg',
+  './images/Mobile Banner 375 X 220.png',
   'https://cdn.pixabay.com/photo/2022/06/19/07/12/mount-kilimanjaro-7271184__340.jpg',
 ];
 
